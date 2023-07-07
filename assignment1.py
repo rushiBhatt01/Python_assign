@@ -1,0 +1,6 @@
+print("Enter Marks of 3 subjects: ")
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+avg = ((num1+num2+num3)/3)
+print("The Average of 3 Subject is",avg)
