@@ -1,3 +1,4 @@
+#for searching Insta id 
 from tkinter import *
 import webbrowser as wb
 obj=Tk(className="window")
@@ -10,6 +11,7 @@ e.grid()
 
 def nav():
     search=e.get()
+    print(search)
     wb.open("https://www.instagram.com/"+search+"/")
 
 
