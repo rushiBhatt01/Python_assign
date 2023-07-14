@@ -1,0 +1,18 @@
+# main.py
+
+import assignment9 as o
+
+# Using the functions from the operations module
+o.file_operations("example.txt", "r")
+o.file_operations("none.txt", "w")
+
+num = 64
+try:
+    square_root = o.calculate(num)
+    print(f"The square root of {num} is: {square_root}")
+except o.CException as e:
+    print(e)
+
+str = "Hello This is assignment 9"
+word = o.split_string(str)
+print(f"The string split into words: {word}")
